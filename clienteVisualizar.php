@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Cadastro de Pessoas - Visualização</title>
+	<title>Cadastro de Clientes - Visualização</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	
@@ -35,6 +35,12 @@
 				</div>
 			</div>
 		</nav>
+		<div class="card">
+			<div class="card-body">
+				<div class="col-sm-12">
+					<h5 class="card-title"><a href="clienteAdicionar.php" class="float-right btn btn-dark btn-sm"><i class="fa fa-fw fa-plus-circle"></i> Adicionar Cliente</a></h5>
+				</div>
+			</div>
 		<hr>
 		<div>
 			<table class="table table-striped table-bordered">
