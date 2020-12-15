@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Cadastro de Funcionários - Visualização</title>
+	<title>Cadastro de Tipos de Armazenagem - Visualização</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	
@@ -42,7 +42,7 @@
 		<div class="card">
 			<div class="card-body">
 				<div class="col-sm-12">
-					<h5 class="card-title"><a href="funcionarioAdicionar.php" class="float-right btn btn-dark btn-sm"><i class="fa fa-fw fa-plus-circle"></i> Adicionar Funcionario</a></h5>
+					<h5 class="card-title"><a href="tipoArmAdicionar.php" class="float-right btn btn-dark btn-sm"><i class="fa fa-fw fa-plus-circle"></i> Adicionar Tipo de Armazenagem</a></h5>
 				</div>
 			</div>
 		<hr>
@@ -52,15 +52,27 @@
 					<tr class="bg-primary text-white">
 						<th>Sr#</th>
 						<th>Nome</th>
+						<th>Peso em KG</th>
 						<th>Operações</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<td>1</td>
-						<td>Andreza Cristina Barbieri Serra</td>
+						<td>Fracionado</td>
+						<td>1</td>
 						<td align="center">
-							<a href="alteraSenha.php" class="text-primary"><i class="fa fa-fw fa-edit"></i> Alterar Senha</a> | 
+							<a href="tipoArmEditar.php" class="text-primary"><i class="fa fa-fw fa-edit"></i> Editar</a> | 
+							<a href="#" class="text-danger" onClick="return confirm('Tem certeza que deseja apagar essa informação?');"><i class="fa fa-fw fa-trash"></i> Apagar</a>
+						</td>
+
+					</tr>
+                    <tr>
+						<td>1</td>
+						<td>Saca</td>
+						<td>60</td>
+						<td align="center">
+							<a href="tipoArmEditar.php" class="text-primary"><i class="fa fa-fw fa-edit"></i> Editar</a> | 
 							<a href="#" class="text-danger" onClick="return confirm('Tem certeza que deseja apagar essa informação?');"><i class="fa fa-fw fa-trash"></i> Apagar</a>
 						</td>
 

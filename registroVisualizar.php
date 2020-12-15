@@ -27,13 +27,14 @@
 						<li><a class="dropdown-item" href="pessoaVisualizar.php">Pessoas</a></li>
 						<li><a class="dropdown-item" href="clienteVisualizar.php">Cliente</a></li>
 						<li><a class="dropdown-item" href="funcionarioVisualizar.php">Funcionário</a></li>
-						<li><a class="dropdown-item" href="#">Tipo de Armazenagem</a></li>
-						<li><a class="dropdown-item" href="#">Grão</a></li>
+						<li><a class="dropdown-item" href="tipoArmVisualizar.php">Tipo de Armazenagem</a></li>
+						<li><a class="dropdown-item" href="graoVisualizar.php">Grão</a></li>
 					</ul>
 					</li>
+				
 					<li class="nav-item">
-          				<a class="nav-link" href="registroVisualizar.php">Registros de Armazenagem</a>
-        			</li>
+						<a class="nav-link" href="registroVisualizar.php">Registros de Armazenagem</a>
+					</li>
 				</ul>
 				</div>
 			</div>
@@ -62,7 +63,7 @@
 									<label>&nbsp;</label>
 									<div>
 										<button type="submit" name="submit" value="search" id="submit" class="btn btn-primary"><i class="fa fa-fw fa-search"></i> Procurar</button>
-										<a href="<?php echo $_SERVER['PHP_SELF'];?>" class="btn btn-danger"><i class="fa fa-fw fa-sync"></i> Limpar</a>
+										<a href="" class="btn btn-danger"><i class="fa fa-fw fa-sync"></i> Limpar</a>
 									</div>
 								</div>
 							</div>

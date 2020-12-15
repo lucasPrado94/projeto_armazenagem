@@ -26,19 +26,20 @@
 						<li><a class="dropdown-item" href="pessoaVisualizar.php">Pessoas</a></li>
 						<li><a class="dropdown-item" href="clienteVisualizar.php">Cliente</a></li>
 						<li><a class="dropdown-item" href="funcionarioVisualizar.php">Funcionário</a></li>
-						<li><a class="dropdown-item" href="#">Tipo de Armazenagem</a></li>
-						<li><a class="dropdown-item" href="#">Grão</a></li>
+						<li><a class="dropdown-item" href="tipoArmVisualizar.php">Tipo de Armazenagem</a></li>
+						<li><a class="dropdown-item" href="graoVisualizar.php">Grão</a></li>
 					</ul>
 					</li>
+				
 					<li class="nav-item">
-          				<a class="nav-link" href="registroVisualizar.php">Registros de Armazenagem</a>
-        			</li>
+						<a class="nav-link" href="registroVisualizar.php">Registros de Armazenagem</a>
+					</li>
 				</ul>
 				</div>
 			</div>
 		</nav>
 		<div class="card">
-			<div class="card-header"><i class="fa fa-fw fa-plus-circle"></i> <strong>Editar Pessoa</strong> <a href="pessoaVisualizar.php" class="float-right btn btn-dark btn-sm"><i class="fa fa-fw fa-globe"></i> Buscar Pessoas</a></div>
+			<div class="card-header"><i class="fa fa-fw fa-plus-circle"></i> <strong>Editar Cliente</strong> <a href="clienteVisualizar.php" class="float-right btn btn-dark btn-sm"><i class="fa fa-fw fa-globe"></i> Buscar Clientes</a></div>
 			<div class="card-body">
 				
 				<div class="col-sm-6">

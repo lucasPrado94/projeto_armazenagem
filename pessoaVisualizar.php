@@ -39,13 +39,14 @@
 						<li><a class="dropdown-item" href="pessoaVisualizar.php">Pessoas</a></li>
 						<li><a class="dropdown-item" href="clienteVisualizar.php">Cliente</a></li>
 						<li><a class="dropdown-item" href="funcionarioVisualizar.php">Funcionário</a></li>
-						<li><a class="dropdown-item" href="#">Tipo de Armazenagem</a></li>
-						<li><a class="dropdown-item" href="#">Grão</a></li>
+						<li><a class="dropdown-item" href="tipoArmVisualizar.php">Tipo de Armazenagem</a></li>
+						<li><a class="dropdown-item" href="graoVisualizar.php">Grão</a></li>
 					</ul>
 					</li>
+				
 					<li class="nav-item">
-          				<a class="nav-link" href="registroVisualizar.php">Registros de Armazenagem</a>
-        			</li>
+						<a class="nav-link" href="registroVisualizar.php">Registros de Armazenagem</a>
+					</li>
 				</ul>
 				</div>
 			</div>
