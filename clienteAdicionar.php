@@ -37,18 +37,21 @@
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						<li><a class="dropdown-item" href="pessoaVisualizar.php">Pessoas</a></li>
 						<li><a class="dropdown-item" href="clienteVisualizar.php">Cliente</a></li>
-						<li><a class="dropdown-item" href="#">Funcionário</a></li>
+						<li><a class="dropdown-item" href="funcionarioVisualizar.php">Funcionário</a></li>
 						<li><a class="dropdown-item" href="#">Tipo de Armazenagem</a></li>
 						<li><a class="dropdown-item" href="#">Grão</a></li>
 					</ul>
 					</li>
 				</ul>
+				<li class="nav-item">
+          			<a class="nav-link" href="registroVisualizar.php">Registros de Armazenagem</a>
+        		</li>
 				</div>
 			</div>
 		</nav>
 		<div class="card">
 
-			<div class="card-header"><i class="fa fa-fw fa-plus-circle"></i> <strong>Cadastro de Cliente</strong> <a href="pessoaVisualizar.php" class="float-right btn btn-dark btn-sm"><i class="fa fa-fw fa-globe"></i> Buscar Pessoas</a></div>
+			<div class="card-header"><i class="fa fa-fw fa-plus-circle"></i> <strong>Cadastro de Cliente</strong> <a href="clienteVisualizar.php" class="float-right btn btn-dark btn-sm"><i class="fa fa-fw fa-globe"></i> Buscar Clientes</a></div>
 
 			<div class="card-body">
 
