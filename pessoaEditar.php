@@ -98,7 +98,7 @@ if(isset($_REQUEST['submit']) and $_REQUEST['submit']!=""){
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						<li><a class="dropdown-item" href="pessoaVisualizar.php">Pessoas</a></li>
-						<li><a class="dropdown-item" href="#">Cliente</a></li>
+						<li><a class="dropdown-item" href="clienteVisualizar.php">Cliente</a></li>
 						<li><a class="dropdown-item" href="#">Funcionário</a></li>
 						<li><a class="dropdown-item" href="#">Tipo de Armazenagem</a></li>
 						<li><a class="dropdown-item" href="#">Grão</a></li>
