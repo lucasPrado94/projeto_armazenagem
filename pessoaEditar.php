@@ -112,30 +112,6 @@ if(isset($_REQUEST['submit']) and $_REQUEST['submit']!=""){
 				</div>
 			</div>
 		</nav>
-	   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Projeto Armazenagem</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-						Cadastros
-					</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="pessoaVisualizar.php">Pessoas</a></li>
-						<li><a class="dropdown-item" href="#">Cliente</a></li>
-						<li><a class="dropdown-item" href="#">Funcionário</a></li>
-						<li><a class="dropdown-item" href="#">Tipo de Armazenagem</a></li>
-						<li><a class="dropdown-item" href="#">Grão</a></li>
-					</ul>
-					</li>
-				</ul>
-				</div>
-			</div>
-		</nav>
 		<?php
 		if(isset($_REQUEST['msg']) and $_REQUEST['msg']=="np"){
 			echo	'<div class="alert alert-danger"><i class="fa fa-exclamation-triangle"></i> Nome da Pessoa é um campo obrigatório!</div>';
